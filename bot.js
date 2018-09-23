@@ -8,8 +8,7 @@ client.on("ready", () => {
 console.log('Bot Online and Ready! On ' + client.guilds.size + ' Servers!');
 });
 
-
-//client.on("error", (e) => {
+client.on("error", (e) => {
 console.error(e);
 });
 
@@ -24,7 +23,7 @@ console.info(e);
 process.on('unhandledRejection', (reason, promise) => {
 console.log('Unhandled Rejection at:', reason.stack || reason)
 return;
-});// enable these if you want to debug errors
+});// remove this if u dont want to debug errs
 
 client.on("message", msg => {
 if (msg.author.bot) return; //ignore bots
