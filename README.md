@@ -7,3 +7,4 @@ Current features:
 1. It can DM all members using a time limit
 2. Has the ability to ignore users to DM.
 3. You can put any message you want.
+4. The bot can split long messages, which means you can easily mention everybody in the guild.
