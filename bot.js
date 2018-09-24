@@ -43,7 +43,7 @@ memberss.push(member)
 memberss.forEach(function(memberz, index)
 {
  setTimeout(function () {
-  memberz.send("test", { { split: '\n' } })
+  memberz.send("test", { split: '\n' } )
   console.log("DM'ED " + memberz)
   }, index * interval); //send it after every index completes along with the time so that it goes to the next iteration with a stop in between
 })
