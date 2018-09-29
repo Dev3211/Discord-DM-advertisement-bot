@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 
-const client = new Discord.Client();
+const client = new Discord.Client({fetchAllMembers: true});
 
 var ignoreDM = ['id here'] //author ids to ignore when trying to DM
 
